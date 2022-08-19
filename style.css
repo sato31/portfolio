@@ -15,3 +15,10 @@ body{
 [id] {
     scroll-margin-top: 100px;
  }
+
+ .margin-card {
+    margin: 5px;
+    background-color: #EFEDF1;
+    border: 1px solid #E2E3E8;
+    padding: 10px;   
+}
