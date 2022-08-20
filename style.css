@@ -22,3 +22,13 @@ body{
     border: 1px solid #E2E3E8;
     padding: 10px;   
 }
+
+.cont-img{
+    text-align: center;
+    margin: 35px 0px;
+}
+
+.img-skill{
+    height: 130px;
+    text-align: center
+}
