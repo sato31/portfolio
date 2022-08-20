@@ -27,8 +27,23 @@ body{
     text-align: center;
     margin: 35px 0px;
 }
+.cont-img:hover{
+    scale: 1.1;
+}
 
 .img-skill{
-    height: 130px;
+    height: 120px;
+    text-align: center
+}
+
+.img-bootstrap{
+    margin-top: 15px; 
+    height:fit-content; 
+    width: 120px
+}
+
+.img-skill-node{
+    height: 100px;
+    width: 120px;
     text-align: center
 }
