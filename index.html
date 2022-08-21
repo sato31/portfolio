@@ -10,16 +10,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed py-2">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Oscar Sánchez</a>
+          <a class="navbar-brand" href="index.html">Oscar Sánchez</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarColor02">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" href="#Name">Inicio</a>
+                <a class="nav-link" href="#Name">Inicio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#Portfolio">Portafolio</a>
@@ -30,39 +30,32 @@
               <li class="nav-item">
                 <a class="nav-link" href="#AboutMe">Contacto</a>
               </li>
-              <!-- <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Separated link</a>
-                </div>
-              </li> -->
             </ul>
           </div>
         </div>
       </nav>
-      <header class="container" id="Name" style="background-color: gray; text-align: center;">
-        <h1>Oscar Alejandro Sánchez Torres</h1>
-        <hr>
-        <h4>Desarrollador Frontend</h4>
-      </header>
 
-      <section class="container" id="Portfolio">
+      <div class="container-fluid" style= "text-align: center; height: 300px;">
+        <header class="container" id="Name" style="padding: 100px 0px;">
+          <h1>Oscar Alejandro Sánchez Torres</h1>
+          <hr>
+          <h4>Desarrollador Frontend</h4>
+        </header>
+      </div>
+
+      <section class="container py-4" id="Portfolio">
         <h4>Portafolio</h4>
         <hr>
         <div class="row">
           <div class="col-sm-12 col-md-6 col-lg-4 my-3">
             <div class="card margin-card">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="./assets/img/proys/cajero.png" class="card-img-top" alt="cajero-atm">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Cajero ATM</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <div class="row">
-                  <a href="#" class="btn btn-dark col-6">Ver proyecto</a>
-                  <a href="#" class="btn btn-outline-dark col-6">Ver en GitHub</a>
+                  <a href="#" class="btn btn-dark col-6"><small>Ver proyecto</small></a>
+                  <a href="#" class="btn btn-outline-dark col-6"><small>Ver en GitHub</small></a>
                 </div>
               </div>
             </div>
@@ -70,13 +63,13 @@
 
             <div class="col-sm-12 col-md-6 col-lg-4 my-3">
               <div class="card margin-card">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="./assets/img/proys/poke.png" class="card-img-top" alt="pokedex">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Pokédex</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   <div class="row">
-                    <a href="#" class="btn btn-dark col-6">Ver proyecto</a>
-                    <a href="#" class="btn btn-outline-dark col-6">Ver en GitHub</a>
+                    <a href="#" class="btn btn-dark col-6"><small>Ver proyecto</small></a>
+                    <a href="#" class="btn btn-outline-dark col-6"><small>Ver en GitHub</small></a>
                   </div>
                 </div>
               </div>
@@ -84,13 +77,13 @@
 
             <div class="col-sm-12 col-md-6 col-lg-4 my-3">
               <div class="card margin-card">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="./assets/img/proys/net.png" class="card-img-top" alt="netflix">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Clon Netflix</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   <div class="row">
-                    <a href="#" class="btn btn-dark col-6">Ver proyecto</a>
-                    <a href="#" class="btn btn-outline-dark col-6">Ver en GitHub</a>
+                    <a href="#" class="btn btn-dark col-6"><small>Ver proyecto</small></a>
+                    <a href="#" class="btn btn-outline-dark col-6"><small>Ver en GitHub</small></a>
                   </div>
                 </div>
               </div>
@@ -98,13 +91,13 @@
 
             <div class="col-sm-12 col-md-6 col-lg-4 my-3">
               <div class="card margin-card">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="./assets/img/proys/rick.png" class="card-img-top" alt="Ruck and Morty">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Catálogo de personajes</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   <div class="row">
-                    <a href="#" class="btn btn-dark col-6">Ver proyecto</a>
-                    <a href="#" class="btn btn-outline-dark col-6">Ver en GitHub</a>
+                    <a href="#" class="btn btn-dark col-6"><small>Ver proyecto</small></a>
+                    <a href="#" class="btn btn-outline-dark col-6"><small>Ver en GitHub</small></a>
                   </div>
                 </div>
               </div>
@@ -112,13 +105,13 @@
   
               <div class="col-sm-12 col-md-6 col-lg-4 my-3">
                 <div class="card margin-card">
-                  <img src="..." class="card-img-top" alt="...">
+                  <img src="./assets/img/proys/boot.png" class="card-img-top" alt="Bootstrap">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">Bootstrap Responsive</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <div class="row">
-                      <a href="#" class="btn btn-dark col-6">Ver proyecto</a>
-                      <a href="#" class="btn btn-outline-dark col-6">Ver en GitHub</a>
+                      <a href="#" class="btn btn-dark col-6"><small>Ver proyecto</small></a>
+                      <a href="#" class="btn btn-outline-dark col-6"><small>Ver en GitHub</small></a>
                     </div>
                   </div>
                 </div>
@@ -126,13 +119,13 @@
   
               <div class="col-sm-12 col-md-6 col-lg-4 my-3">
                 <div class="card margin-card">
-                  <img src="..." class="card-img-top" alt="...">
+                  <img src="./assets/img/proys/google.png" class="card-img-top" alt="Clon Google">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">Clon Google</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <div class="row">
-                      <a href="#" class="btn btn-dark col-6">Ver proyecto</a>
-                      <a href="#" class="btn btn-outline-dark col-6">Ver en GitHub</a>
+                      <a href="#" class="btn btn-dark col-6"><small>Ver proyecto</small></a>
+                      <a href="#" class="btn btn-outline-dark col-6"><small>Ver en GitHub</small></a>
                     </div>
                   </div>
                 </div>
@@ -167,7 +160,7 @@
             <img class="img-skill-node" src="./assets/img/npm.png" alt="NPM" data-bs-toggle="tooltip" data-bs-placement="bottom" title="NPM">
           </div>
           <div class="col-6 col-sm-6 col-md-3 cont-img">
-            <img class="img-skill-node" src="./assets/img/node.png" alt="Node.js" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Node.js">>
+            <img class="img-skill-node" src="./assets/img/node.png" alt="Node.js" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Node.js">
           </div>
           <div class="col-6 col-sm-6 col-md-3 cont-img">
             <img class="img-skill" src="./assets/img/react.png" alt="React" data-bs-toggle="tooltip" data-bs-placement="bottom" title="React">
@@ -196,9 +189,31 @@
         </div>
       </section>
 
-      <footer class="container" id="AboutMe" style="height: 800px;">
-        <h4>Contacto</h4>
-        <hr>
+      <footer class="container-fluid py-4" id="AboutMe" style="height: 380px;">
+        <div class="container">
+          <h4>Contacto</h4>
+          <hr>
+          <div class="row justify-content-center py-5">
+            <div class="col-6 col-sm-6 col-md-3 cont-img-in">
+              <img class="img-contact" src="./assets/img/changeBG/LI.png" alt="IN">
+            </div>
+            <div class="col-6 col-sm-6 col-md-3 cont-img-gh">
+              <img class="img-contact" src="./assets/img/changeBG/LI.png" alt="IN">
+            </div>
+            <div class="col-6 col-sm-6 col-md-3 cont-img-gm">
+              <img class="img-contact" src="./assets/img/changeBG/LI.png" alt="IN">
+            </div>
+            <div class="col-6 col-sm-6 col-md-3 cont-img-cv">
+              <img class="img-contact" src="./assets/img/changeBG/LI.png" alt="IN">
+            </div>
+          </div>
+        </div>
+      </footer>
+      <footer class="container-fluid py-4" style="background-color: #343a40; text-align: center; height: 105px;">
+      <small>Diseño y Desarrollo por Oscar Sánchez utilizando 
+        <a href="https://getbootstrap.com/docs/5.2">Bootstrap 5.2</a> 
+        y el tema <a href="https://bootswatch.com/lux/">Lux</a> 
+        de Bootswatch.</small>
       </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
