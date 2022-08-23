@@ -104,3 +104,8 @@ body{
     text-align: center;
     height: 100px;
 }
+
+.text-footer{
+    color: #6a7075; 
+    font-size: smaller;
+}
