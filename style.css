@@ -16,8 +16,13 @@ body{
     scroll-margin-top: 70px;
  }
 
- header{
-    transition: all 0.5s ease;
+ .align-header {
+    text-align: center;
+     height: 300px;
+ }
+
+ .pad-header{
+    padding: 100px 0px;
  }
 
  .margin-card {
@@ -58,6 +63,10 @@ body{
     text-align: center
 }
 
+.height-contact{
+    height: 380px;
+}
+
 .cont-img-in,
 .cont-img-gh,
 .cont-img-gm,
@@ -88,4 +97,10 @@ body{
 
 .img-contact{
     width: 60px;
+}
+
+.footer-format{
+    background-color: #343a40;
+    text-align: center;
+    height: 100px;
 }
